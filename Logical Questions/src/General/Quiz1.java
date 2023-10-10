@@ -1,0 +1,22 @@
+package General;
+
+public class Quiz1 {
+
+	public static void main(String[] args) {
+		String s1 = "hello";
+		String s2 = "world";
+		String s3 = "helloworld";
+		String s4 = s1 + s2;
+		String s5 = "hello" + "world";
+
+		// == checks if both objects points to the same memory location
+		// == Address comparison
+		// equals() value comparison
+
+		System.out.println(s3 == s4);
+		System.out.println(s3 == s5);
+		System.out.println(s4 == s5);
+	}
+}
+//Answer : False true false 
+// As == operator is used to compare the reference and equals() is used to compare content

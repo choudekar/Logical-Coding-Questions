@@ -1,0 +1,18 @@
+package General;
+
+public class Quiz2 {
+
+	public static void main(String[]args) {
+		int x=5;
+		int y=10;
+		printValues(x++,--y); // x=5,y=9
+	} 
+	//method doesnt return value
+		public static int printValues(int x,int y) {
+
+			System.out.println("x = "+ x++);
+			System.out.println("y = "+ y--);
+			return y;
+		}
+	}
+
